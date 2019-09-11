@@ -1,0 +1,39 @@
+article div div {
+    max-width: 300px;
+    border: 1px solid Blue;
+    margin: 1px 1px;
+    padding: 5px;
+    display: block;
+}
+article div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+  background-color: yellow; 
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: cyan;
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+    font-family: cursive;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+button{
+   display: flex;
+   margin: auto;
+}
+div.empty {
+    background-color: #faa;
+}
