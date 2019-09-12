@@ -7,11 +7,96 @@
 <body onload="loadPage()">
 <header>Teacher Inservice Day - Sign Up App</header>
     <p> <img src="S.png" accesskey=""width="200" height="200"> ,<img src="TeacherInService.jpg" width="200" height="200"> , <img src="NV.png" width="200" height="200"> , <img src="SV.png" width="200" height="200"> , <img src="TS.png" accesskey=""width="200" height="200"> , <img src="MC.png" accesskey=""width="200" height="200"> </p>
+     <p class= ty>Shopping Cart <span id="cartCount">0</span></p>
     <ul id="cart">
         
     </ul>
+    <h1>Sign Up</h1>
+            <form>
+                <!-- inline by default -->
+                <label for="first">First</label>
+                <input name="first" type="text" required>
+                <label for="last">Last</label>
+                <input name="last" type="text">
+                <p></p>
+                <label for=email>Email</label>
+                <input name="email" type="email">
+                <p></p>
+                <label for=gender>Gender:</label>
+                <input type=radio name=gender value=female>Female
+                <input type=radio name=gender value=male>Male
+                <input type=radio name=gender value=prefernottosay>Prefer not to say
+                <p></p>
+                <label for=age>Age</label>
+                <input type=number step=1 name=age>
+                <p></p>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                       required>
+                <p></p>
+                 <label>Grade</label>
+                <select>
+                    <option></option>
+                    <option>K</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <p></p>
+                <label>Building</label>
+                <select>
+                    <option></option>
+                    <option>Northview</option>
+                    <option>Southview</option>
+                    <option>McCord</option>
+                    <option>TimberStone</option>
+                    
+                </select>
+                <p></p>
+                <label>Position</label>
+                <select>
+                    <option></option>
+                    <option>Teacher</option>
+                    <option>Principal</option>
+                    <option>Counselor</option>
+                    <option>Other</option>
+                    
+                </select>
+                <p></p>
+                <label>Subject</label>
+                <select>
+                    <option></option>
+                    <option>Math</option>
+                    <option>English</option>
+                    <option>Science</option>
+                    <option>Social Studies</option>
+                    <option>Not a Teacher</option>
+                    <option>Other</option>
+                </select>
+                <p></p>
+                <label>How do you prefer to be contacted?</label>
+                <select name=contact>
+                    <option></option>
+                    <option value=phone>Phone</option>
+                    <option value=email>Email</option>
+                </select>
+                <input type=reset>
+                <input type=submit>
+            </form>
+   
 <section>
     <article>
+        
     </article>
 </section>
     

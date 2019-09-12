@@ -15,7 +15,7 @@ section {
   background-color: yellow; 
 }
 body{
-    background-color: black;
+    background-color: gray;
 }
 header{
     background-color: cyan;
@@ -28,8 +28,31 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 button{
    display: flex;
    margin: auto;
+}
+div.empty {
+    background-color: #faa;
+}
+ul{
+   color: white;
+}
+p.ty{
+    color: white;
+}
+span#cartCount{
+    background-color: red;
+    color: black;
+}
+label{
+    color: white;
+}
+input{
+    color: black;
+}
+form{
+    color: white;
 }
